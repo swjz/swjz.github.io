@@ -11,35 +11,36 @@ weight = 8
 
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
-date_format = "January 2006"
+date_format = "01/2006"
 
 # Experiences.
 #   Add/remove as many `[[experience]]` blocks below as you like.
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
-[[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = ""
-  description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
-  """
+
+# [[experience]]
+#   title = ""
+#   company = ""
+#   company_url = ""
+#   location = ""
+#   date_start = ""
+#   date_end = ""
+#   description = """
+#   Responsibilities include:
+#   
+#   * Analysing
+#   * Modelling
+#   * Deploying
+#   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "A Six-Legged Smart Bionic Spider"
+  company = "Project for embedded systems course"
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
+  location = "Beijing, China"
+  date_start = "2016-10-01"
   date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  description = """Designed a mobile-controlled spider-like robot that automatically finds paths and avoids obstacles."""
 
 +++
