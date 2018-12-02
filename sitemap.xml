@@ -4,7 +4,47 @@
     
     <url>
     
-      <loc>/post/</loc>
+      <loc>https://swjz.github.io/project/scanner/</loc>
+      <lastmod>2018-10-02T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://swjz.github.io/project/decaf/</loc>
+      <lastmod>2018-10-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://swjz.github.io/project/virtual_cdn/</loc>
+      <lastmod>2017-11-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://swjz.github.io/project/cuda_renderer/</loc>
+      <lastmod>2017-07-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://swjz.github.io/project/meme_generator/</loc>
+      <lastmod>2017-05-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://swjz.github.io/post/</loc>
       <lastmod>2017-01-01T00:00:00+08:00</lastmod>
     </url>
     
@@ -12,7 +52,7 @@
     
     <url>
     
-      <loc>/publication/</loc>
+      <loc>https://swjz.github.io/publication/</loc>
       <lastmod>2017-01-01T00:00:00+08:00</lastmod>
     </url>
     
@@ -20,7 +60,7 @@
     
     <url>
     
-      <loc>/talk/</loc>
+      <loc>https://swjz.github.io/talk/</loc>
       <lastmod>2017-01-01T00:00:00+08:00</lastmod>
     </url>
     
@@ -28,7 +68,15 @@
     
     <url>
     
-      <loc>/categories/</loc>
+      <loc>https://swjz.github.io/project/embedded_system/</loc>
+      <lastmod>2016-12-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://swjz.github.io/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -36,7 +84,8 @@
     
     <url>
     
-      <loc>/publication_types/</loc>
+      <loc>https://swjz.github.io/project/</loc>
+      <lastmod>2018-10-02T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -44,7 +93,7 @@
     
     <url>
     
-      <loc>/tags/</loc>
+      <loc>https://swjz.github.io/publication_types/</loc>
       <priority>0</priority>
     </url>
     
@@ -52,7 +101,15 @@
     
     <url>
     
-      <loc>/</loc>
+      <loc>https://swjz.github.io/tags/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://swjz.github.io/</loc>
       <lastmod>2017-10-15T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>

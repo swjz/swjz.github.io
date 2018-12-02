@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -18,7 +20,7 @@
   <meta name="description" content="a.k.a Ted Shaowang">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://swjz.github.io/post/">
+  <link rel="alternate" hreflang="en-us" href="https://swjz.github.io/project/">
 
   
 
@@ -51,6 +53,13 @@
       
     
     
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
 
     
 
@@ -71,21 +80,21 @@
   
 
   
-  <link rel="alternate" href="https://swjz.github.io/post/index.xml" type="application/rss+xml" title="Wangjianzhe Shao">
-  <link rel="feed" href="https://swjz.github.io/post/index.xml" type="application/rss+xml" title="Wangjianzhe Shao">
+  <link rel="alternate" href="https://swjz.github.io/project/index.xml" type="application/rss+xml" title="Wangjianzhe Shao">
+  <link rel="feed" href="https://swjz.github.io/project/index.xml" type="application/rss+xml" title="Wangjianzhe Shao">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://swjz.github.io/post/">
+  <link rel="canonical" href="https://swjz.github.io/project/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Wangjianzhe Shao">
-  <meta property="og:url" content="https://swjz.github.io/post/">
-  <meta property="og:title" content="Posts | Wangjianzhe Shao">
+  <meta property="og:url" content="https://swjz.github.io/project/">
+  <meta property="og:title" content="Projects | Wangjianzhe Shao">
   <meta property="og:description" content="a.k.a Ted Shaowang">
   
   
@@ -93,14 +102,14 @@
   <meta property="og:image" content="https://swjz.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2017-01-01T00:00:00&#43;08:00">
+  <meta property="og:updated_time" content="2018-10-02T00:00:00&#43;08:00">
   
 
   
 
   
 
-  <title>Posts | Wangjianzhe Shao</title>
+  <title>Projects | Wangjianzhe Shao</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -258,16 +267,80 @@
 
 
 <div class="universal-wrapper">
-
-  <h1>Posts</h1>
-
-  
-
-  
-  
+  <h1>Projects</h1>
 
   
 
+  
+  
+  <div>
+    <h2><a href="/project/scanner/">Scanner</a></h2>
+    <div class="article-style">
+      
+      - Rewrote scheduler for _Scanner_, changing the task granularity from an entire DAG to each node therein
+- Added support for streaming video, which enables direct access to memory data in addition to disk
+- Developed an object detection app as an example of using _Scanner_ with Tensorflow
+
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/project/decaf/">Decaf Compiler - Project for Compilers course</a></h2>
+    <div class="article-style">
+      
+      Developed a compiler for Decaf (a strongly-typed, object-oriented language) written in Java
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/project/virtual_cdn/">Virtual Video CDN - Project for Computer Networks course</a></h2>
+    <div class="article-style">
+      
+      - Developed an HTTP proxy in Python to simulate a simplified video CDN system
+- Implemented adaptive bitrate selection in the HTTP proxy
+- Managed to offer best available bitrate based on the connection’s current throughput
+
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/project/cuda_renderer/">A Simple CUDA Renderer - Project for Parallel Programming course</a></h2>
+    <div class="article-style">
+      
+      - Implemented a parallel renderer in CUDA that draws a large number of colored circles efficiently
+- Maintained atomicity and order that are preserved trivially in the sequential implementation
+
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/project/meme_generator/">Meme Generator - HackPKU 2017</a></h2>
+    <div class="article-style">
+      
+      - Worked with a teammate to develop a WeChat Mini-program to auto-generate meme for photos
+- Automatically recognized characteristics of faces (gender, emotions, etc.) using SenseTime API
+- Implemented an ”Meme Library” in MySQL to store face characteristics of given memes
+
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/project/embedded_system/">A Six-Legged Smart Bionic Spider - Project for Embedded Systems course</a></h2>
+    <div class="article-style">
+      
+      - Designed a mobile-controlled spider-like robot that automatically finds paths and avoids obstacles
+
+      
+    </div>
+  </div>
+  
+
+  
 
 </div>
 <div class="container">
@@ -336,6 +409,10 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
 
       
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
 
       
       
@@ -352,6 +429,8 @@
     
 
     
+    
+    <script>hljs.initHighlightingOnLoad();</script>
     
 
     
@@ -402,4 +481,6 @@
 
   </body>
 </html>
+
+
 
