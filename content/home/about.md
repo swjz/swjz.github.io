@@ -10,7 +10,7 @@ weight = 5
 # List your academic interests.
 # [interests]
 #   interests = [
-#     "Distributed Systems",
+#     "Distributed Database Systems",
 #   ]
 
 # List your qualifications (such as academic degrees).

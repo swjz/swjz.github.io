@@ -1,7 +1,7 @@
 +++
 # Experience widget.
 widget = "experience"  # Do not modify this line!
-active = true  # Activate this widget? true/false
+active = false  # Activate this widget? true/false
 
 title = "Experience"
 subtitle = ""
@@ -35,12 +35,18 @@ date_format = "01/2006"
 #   """
 
 [[experience]]
-  title = "A Six-Legged Smart Bionic Spider"
-  company = "Project for embedded systems course"
-  company_url = ""
+  title = "ByteDance Inc"
+  company = "Software Engineering Intern"
   location = "Beijing, China"
-  date_start = "2016-10-01"
-  date_end = "2016-12-31"
-  description = """Designed a mobile-controlled spider-like robot that automatically finds paths and avoids obstacles."""
+  date_start = "2018-11-28"
+
+[[experience]]
+  title = "Stanford University"
+  company = "Visiting Research Intern"
+  company_url = ""
+  location = "Stanford, CA"
+  date_start = "2018-06-27"
+  date_end = "2018-09-13"
+  description = """Advisor: Prof. Kayvon Fatahalian"""
 
 +++

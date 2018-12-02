@@ -10,7 +10,7 @@ title = "Skills"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 7
+weight = 70
 
 # Showcase personal skills or business features.
 # 
@@ -25,16 +25,16 @@ weight = 7
   name = "C/C++"
 
 [[feature]]
+  name = "Golang"
+
+[[feature]]
   name = "Python"
 
 [[feature]]
   name = "Java"
 
 [[feature]]
-  name = "LaTeX"
-
-[[feature]]
-  name = "git"
+  name = "SQL"
 
 [[feature]]
   name = "bash"
