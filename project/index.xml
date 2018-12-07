@@ -13,7 +13,7 @@
     
     
     <item>
-      <title>Scanner</title>
+      <title>Scanner: Efficient Video Analysis at Scale</title>
       <link>https://swjz.github.io/project/scanner/</link>
       <pubDate>Tue, 02 Oct 2018 00:00:00 +0800</pubDate>
       
@@ -40,6 +40,15 @@
     </item>
     
     <item>
+      <title>Ray-tracing and Pipeline Renderer - Project for Computer Graphics course</title>
+      <link>https://swjz.github.io/project/renderer/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0800</pubDate>
+      
+      <guid>https://swjz.github.io/project/renderer/</guid>
+      <description>Implemented a ray-tracing renderer optimized with BVH trees in C++ Implemented a pipeline renderer in OpenGL(GLSL)      Examples of rendered images</description>
+    </item>
+    
+    <item>
       <title>A Simple CUDA Renderer - Project for Parallel Programming course</title>
       <link>https://swjz.github.io/project/cuda_renderer/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0800</pubDate>
@@ -49,12 +58,21 @@
     </item>
     
     <item>
+      <title>Find Courses to Take - A WeChat Mini-app</title>
+      <link>https://swjz.github.io/project/find_courses/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0800</pubDate>
+      
+      <guid>https://swjz.github.io/project/find_courses/</guid>
+      <description>Screenshots of the mini-app</description>
+    </item>
+    
+    <item>
       <title>Meme Generator - HackPKU 2017</title>
       <link>https://swjz.github.io/project/meme_generator/</link>
       <pubDate>Mon, 01 May 2017 00:00:00 +0800</pubDate>
       
       <guid>https://swjz.github.io/project/meme_generator/</guid>
-      <description></description>
+      <description>  Example of the Meme Generator Mini-app   </description>
     </item>
     
     <item>
@@ -63,7 +81,11 @@
       <pubDate>Thu, 01 Dec 2016 00:00:00 +0800</pubDate>
       
       <guid>https://swjz.github.io/project/embedded_system/</guid>
-      <description></description>
+      <description>Designed a mobile-controlled spider-like robot that automatically finds paths and avoids obstacles
+ Worked with a group of four to design and develop a spider-like robot
+ Connected ultrasonic and light sensors to Arduino Yun to find paths and avoid obstacles
+ Used Arduino Yun as a Linux server, making users control the spider via Android phones
+ Connected a webcam to Arduino Yun and streamed live video to Android phones using mjpg-streamer</description>
     </item>
     
   </channel>

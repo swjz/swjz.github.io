@@ -15,12 +15,12 @@
   
     
   
-  <meta name="description" content="- Implemented a parallel renderer in CUDA that draws a large number of colored circles efficiently
-- Maintained atomicity and order that are preserved trivially in the sequential implementation
+  <meta name="description" content="- Implemented a ray-tracing renderer optimized with BVH trees in C&#43;&#43;
+- Implemented a pipeline renderer in OpenGL (GLSL)
 ">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://swjz.github.io/project/cuda_renderer/">
+  <link rel="alternate" hreflang="en-us" href="https://swjz.github.io/project/renderer/">
 
   
 
@@ -108,7 +108,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://swjz.github.io/project/cuda_renderer/">
+  <link rel="canonical" href="https://swjz.github.io/project/renderer/">
 
   
   
@@ -120,23 +120,23 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Wangjianzhe Shao">
-  <meta property="og:url" content="https://swjz.github.io/project/cuda_renderer/">
-  <meta property="og:title" content="A Simple CUDA Renderer - Project for Parallel Programming course | Wangjianzhe Shao">
-  <meta property="og:description" content="- Implemented a parallel renderer in CUDA that draws a large number of colored circles efficiently
-- Maintained atomicity and order that are preserved trivially in the sequential implementation
+  <meta property="og:url" content="https://swjz.github.io/project/renderer/">
+  <meta property="og:title" content="Ray-tracing and Pipeline Renderer - Project for Computer Graphics course | Wangjianzhe Shao">
+  <meta property="og:description" content="- Implemented a ray-tracing renderer optimized with BVH trees in C&#43;&#43;
+- Implemented a pipeline renderer in OpenGL (GLSL)
 "><meta property="og:image" content="https://swjz.github.io/img/portrait.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2017-07-01T00:00:00&#43;08:00">
+  <meta property="article:published_time" content="2017-10-01T00:00:00&#43;08:00">
   
-  <meta property="article:modified_time" content="2017-07-01T00:00:00&#43;08:00">
-  
-
+  <meta property="article:modified_time" content="2017-10-01T00:00:00&#43;08:00">
   
 
   
 
-  <title>A Simple CUDA Renderer - Project for Parallel Programming course | Wangjianzhe Shao</title>
+  
+
+  <title>Ray-tracing and Pipeline Renderer - Project for Computer Graphics course | Wangjianzhe Shao</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -310,7 +310,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">A Simple CUDA Renderer - Project for Parallel Programming course</h1>
+  <h1 itemprop="name">Ray-tracing and Pipeline Renderer - Project for Computer Graphics course</h1>
 
   
 
@@ -328,9 +328,9 @@
 
   <span class="article-date">
     
-    <meta content="2017-07-01 00:00:00 &#43;0800 CST" itemprop="datePublished">
-    <time datetime="2017-07-01 00:00:00 &#43;0800 CST" itemprop="dateModified">
-      Jul 1, 2017
+    <meta content="2017-10-01 00:00:00 &#43;0800 CST" itemprop="datePublished">
+    <time datetime="2017-10-01 00:00:00 &#43;0800 CST" itemprop="dateModified">
+      Oct 1, 2017
     </time>
   </span>
   <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
@@ -359,6 +359,8 @@
 
 
 
+  
+
 
 
 
@@ -367,8 +369,6 @@
 
 
 <div class="btn-links mb-3">
-  
-  <a class="btn btn-outline-primary my-1" href="http://15418.courses.cs.cmu.edu/tsinghua2017/article/4" target="_blank" rel="noopener">Go to Project Site</a>
   
   
 
@@ -408,7 +408,36 @@
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      
+      <ul>
+<li>Implemented a ray-tracing renderer optimized with BVH trees in C++</li>
+<li>Implemented a pipeline renderer in OpenGL(GLSL)</li>
+</ul>
+
+<p>
+
+
+<figure>
+
+<img src="toycar.png" />
+
+
+</figure>
+
+
+
+<figure>
+
+<img src="crystal.png" />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  <h4>Examples of rendered images</h4>
+  
+</figcaption>
+
+</figure></p>
+
     </div>
 
     

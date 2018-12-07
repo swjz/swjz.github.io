@@ -11,7 +11,7 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Scanner</title>
+      <title>Scanner: Efficient Video Analysis at Scale</title>
       <link>https://swjz.github.io/project/scanner/</link>
       <pubDate>Tue, 02 Oct 2018 00:00:00 +0800</pubDate>
       
@@ -38,6 +38,44 @@
     </item>
     
     <item>
+      <title>Ray-tracing and Pipeline Renderer - Project for Computer Graphics course</title>
+      <link>https://swjz.github.io/project/renderer/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0800</pubDate>
+      
+      <guid>https://swjz.github.io/project/renderer/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Implemented a ray-tracing renderer optimized with BVH trees in C++&lt;/li&gt;
+&lt;li&gt;Implemented a pipeline renderer in OpenGL(GLSL)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;toycar.png&#34; /&gt;
+
+
+&lt;/figure&gt;
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;crystal.png&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Examples of rendered images&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>A Simple CUDA Renderer - Project for Parallel Programming course</title>
       <link>https://swjz.github.io/project/cuda_renderer/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0800</pubDate>
@@ -47,12 +85,55 @@
     </item>
     
     <item>
+      <title>Find Courses to Take - A WeChat Mini-app</title>
+      <link>https://swjz.github.io/project/find_courses/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0800</pubDate>
+      
+      <guid>https://swjz.github.io/project/find_courses/</guid>
+      <description>&lt;p&gt;
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;browse.png&#34; /&gt;
+
+
+&lt;/figure&gt;
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;details.png&#34; /&gt;
+
+
+&lt;/figure&gt;
+Screenshots of the mini-app&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Meme Generator - HackPKU 2017</title>
       <link>https://swjz.github.io/project/meme_generator/</link>
       <pubDate>Mon, 01 May 2017 00:00:00 +0800</pubDate>
       
       <guid>https://swjz.github.io/project/meme_generator/</guid>
-      <description></description>
+      <description>
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;screenshot.png&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Example of the Meme Generator Mini-app&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+</description>
     </item>
     
     <item>
@@ -61,7 +142,28 @@
       <pubDate>Thu, 01 Dec 2016 00:00:00 +0800</pubDate>
       
       <guid>https://swjz.github.io/project/embedded_system/</guid>
-      <description></description>
+      <description>
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;robot.jpg&#34; /&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Designed a mobile-controlled spider-like robot that automatically finds paths and avoids obstacles&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Worked with a group of four to design and develop a spider-like robot&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Connected ultrasonic and light sensors to Arduino Yun to find paths and avoid obstacles&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Used Arduino Yun as a Linux server, making users control the spider via Android phones&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Connected a webcam to Arduino Yun and streamed live video to Android phones using mjpg-streamer&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>

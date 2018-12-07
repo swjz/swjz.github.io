@@ -6,8 +6,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 2.4.0">
-  <meta name="generator" content="Hugo 0.49" />
+  <meta name="generator" content="Source Themes Academic 3.2.0">
+  <meta name="generator" content="Hugo 0.52" />
   <meta name="author" content="Wangjianzhe Shao">
 
   
@@ -31,9 +31,15 @@
   
 
   
+
+  
+
+  
+
   
   
-  <meta name="theme-color" content="#0095eb">
+  
+  <meta name="theme-color" content="#2962ff">
   
 
   
@@ -43,7 +49,7 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
 
     
@@ -68,13 +74,27 @@
 
   
   
-  <link rel="stylesheet" href=//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
   
 
   <link rel="stylesheet" href="/styles.css">
   
 
   
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-73564934-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
   
   
 
@@ -89,16 +109,19 @@
 
   <link rel="canonical" href="https://swjz.github.io/">
 
-  <meta property="twitter:card" content="summary_large_image">
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Wangjianzhe Shao">
   <meta property="og:url" content="https://swjz.github.io/">
   <meta property="og:title" content="Wangjianzhe Shao">
-  <meta property="og:description" content="a.k.a Ted Shaowang">
-  
-  
-    
-  <meta property="og:image" content="https://swjz.github.io/img/icon-192.png">
+  <meta property="og:description" content="a.k.a Ted Shaowang"><meta property="og:image" content="https://swjz.github.io/img/portrait.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="og:updated_time" content="2017-10-15T00:00:00&#43;08:00">
@@ -112,6 +135,37 @@
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
 
 <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
   <div class="container">
@@ -214,6 +268,15 @@
         
 
         
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+
       </ul>
 
     </div>
@@ -245,7 +308,7 @@
     <div id="profile">
 
       
-      <img class="portrait" src="/img/portrait.png" itemprop="image">
+      <img class="portrait" src="/img/portrait.png" itemprop="image" alt="Avatar">
       
 
       <div class="portrait-title">
@@ -273,8 +336,12 @@
         
           
         
+        
+        
+        
+        
         <li>
-          <a itemprop="sameAs" href="mailto:tedswjz@gmail.com" target="_blank" rel="noopener">
+          <a itemprop="sameAs" href="mailto:tedswjz@gmail.com" >
             <i class="fas fa-envelope big-icon"></i>
           </a>
         </li>
@@ -284,8 +351,14 @@
         
           
         
+        
+        
+        
+        
+          
+        
         <li>
-          <a itemprop="sameAs" href="//github.com/swjz" target="_blank" rel="noopener">
+          <a itemprop="sameAs" href="//github.com/swjz" >
             <i class="fab fa-github big-icon"></i>
           </a>
         </li>
@@ -357,123 +430,249 @@
 
 
 
+
+
+
+
 <div class="row">
-  <div class="col-12 col-lg-4 section-heading">
+  <div class="col-xs-12 col-md-4 section-heading">
+
     <h1>Projects</h1>
     
+
   </div>
-  <div class="col-12 col-lg-8">
-    
+  <div class="col-xs-12 col-md-8">
+
+
 
     
 
     
 
-    <div class="row isotope projects-container js-layout-row">
+    <div class="row  js-layout-row ">
+      
         
-        <div class="col-lg-12 project-item isotope-item " itemscope itemtype="http://schema.org/CreativeWork">
-          <i class="far fa-copy pub-icon" aria-hidden="true"></i>
+        
+        
+          
+          
+        
+        
+          
 
-          <span class="project-title">
-          
-            
-          
-          Scanner
-          
-          </span>
-          <p class="project-summary"><ul>
+
+
+
+
+<div class="col-lg-12 project-item isotope-item " itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="far fa-copy pub-icon" aria-hidden="true"></i>
+
+  <span class="project-title">
+    <a href="https://github.com/scanner-research/scanner" target="_blank" rel="noopener" itemprop="url">Scanner: Efficient Video Analysis at Scale</a>
+  </span>
+
+  <p class="project-summary"><ul>
 <li>Rewrote scheduler for <em>Scanner</em>, changing the task granularity from an entire DAG to each node therein</li>
 <li>Added support for streaming video, which enables direct access to memory data in addition to disk</li>
 <li>Developed an object detection app as an example of using <em>Scanner</em> with Tensorflow</li>
 </ul>
 </p>
-        </div>
-        
-        <div class="col-lg-12 project-item isotope-item " itemscope itemtype="http://schema.org/CreativeWork">
-          <i class="far fa-copy pub-icon" aria-hidden="true"></i>
+</div>
 
-          <span class="project-title">
-          
-            
-          
-          Decaf Compiler - Project for Compilers course
-          
-          </span>
-          <p class="project-summary">Developed a compiler for Decaf (a strongly-typed, object-oriented language) written in Java</p>
-        </div>
         
-        <div class="col-lg-12 project-item isotope-item " itemscope itemtype="http://schema.org/CreativeWork">
-          <i class="far fa-copy pub-icon" aria-hidden="true"></i>
+      
+        
+        
+        
+          
+          
+        
+        
+          
 
-          <span class="project-title">
+
+
+
+
+<div class="col-lg-12 project-item isotope-item " itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="far fa-copy pub-icon" aria-hidden="true"></i>
+
+  <span class="project-title">
+    <a href="https://www.dropbox.com/s/x5vs7dlzj1ce5l6/spec_new_features_59030286.pdf?dl=0" target="_blank" rel="noopener" itemprop="url">Decaf Compiler - Project for Compilers course</a>
+  </span>
+
+  <p class="project-summary"><ul>
+<li>Developed a compiler for Decaf (a strongly-typed, object-oriented language) written in Java</li>
+</ul>
+</p>
+</div>
+
+        
+      
+        
+        
+        
           
-            
           
-          Virtual Video CDN - Project for Computer Networks course
+        
+        
           
-          </span>
-          <p class="project-summary"><ul>
+
+
+
+
+
+<div class="col-lg-12 project-item isotope-item " itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="far fa-copy pub-icon" aria-hidden="true"></i>
+
+  <span class="project-title">
+    <a href="https://www.dropbox.com/s/zmghf600abverla/CDN_20171031.pdf?dl=0" target="_blank" rel="noopener" itemprop="url">Virtual Video CDN - Project for Computer Networks course</a>
+  </span>
+
+  <p class="project-summary"><ul>
 <li>Developed an HTTP proxy in Python to simulate a simplified video CDN system</li>
 <li>Implemented adaptive bitrate selection in the HTTP proxy</li>
 <li>Managed to offer best available bitrate based on the connection’s current throughput</li>
 </ul>
 </p>
-        </div>
-        
-        <div class="col-lg-12 project-item isotope-item " itemscope itemtype="http://schema.org/CreativeWork">
-          <i class="far fa-copy pub-icon" aria-hidden="true"></i>
+</div>
 
-          <span class="project-title">
+        
+      
+        
+        
+        
+        
           
-            
+
+
+
+
+
+<div class="col-lg-12 project-item isotope-item " itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="far fa-copy pub-icon" aria-hidden="true"></i>
+
+  <span class="project-title">
+    <a href="/project/renderer/"  itemprop="url">Ray-tracing and Pipeline Renderer - Project for Computer Graphics course</a>
+  </span>
+
+  <p class="project-summary"><ul>
+<li>Implemented a ray-tracing renderer optimized with BVH trees in C++</li>
+<li>Implemented a pipeline renderer in OpenGL (GLSL)</li>
+</ul>
+</p>
+</div>
+
+        
+      
+        
+        
+        
           
-          A Simple CUDA Renderer - Project for Parallel Programming course
           
-          </span>
-          <p class="project-summary"><ul>
+        
+        
+          
+
+
+
+
+
+<div class="col-lg-12 project-item isotope-item " itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="far fa-copy pub-icon" aria-hidden="true"></i>
+
+  <span class="project-title">
+    <a href="http://15418.courses.cs.cmu.edu/tsinghua2017/article/4" target="_blank" rel="noopener" itemprop="url">A Simple CUDA Renderer - Project for Parallel Programming course</a>
+  </span>
+
+  <p class="project-summary"><ul>
 <li>Implemented a parallel renderer in CUDA that draws a large number of colored circles efficiently</li>
 <li>Maintained atomicity and order that are preserved trivially in the sequential implementation</li>
 </ul>
 </p>
-        </div>
-        
-        <div class="col-lg-12 project-item isotope-item " itemscope itemtype="http://schema.org/CreativeWork">
-          <i class="far fa-copy pub-icon" aria-hidden="true"></i>
+</div>
 
-          <span class="project-title">
+        
+      
+        
+        
+        
+        
           
-            
-          
-          Meme Generator - HackPKU 2017
-          
-          </span>
-          <p class="project-summary"><ul>
-<li>Worked with a teammate to develop a WeChat Mini-program to auto-generate meme for photos</li>
-<li>Automatically recognized characteristics of faces (gender, emotions, etc.) using SenseTime API</li>
-<li>Implemented an ”Meme Library” in MySQL to store face characteristics of given memes</li>
+
+
+
+
+
+<div class="col-lg-12 project-item isotope-item " itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="far fa-copy pub-icon" aria-hidden="true"></i>
+
+  <span class="project-title">
+    <a href="/project/find_courses/"  itemprop="url">Find Courses to Take - A WeChat Mini-app</a>
+  </span>
+
+  <p class="project-summary"><ul>
+<li>Developed a WeChat Mini-app on my own to help students rate courses and professors</li>
+<li>Implemented front-end with WeChat API (JavaScript) and back-end with LeanCloud BaaS</li>
 </ul>
 </p>
-        </div>
-        
-        <div class="col-lg-12 project-item isotope-item " itemscope itemtype="http://schema.org/CreativeWork">
-          <i class="far fa-copy pub-icon" aria-hidden="true"></i>
+</div>
 
-          <span class="project-title">
+        
+      
+        
+        
+        
+        
           
-            
+
+
+
+
+
+<div class="col-lg-12 project-item isotope-item " itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="far fa-copy pub-icon" aria-hidden="true"></i>
+
+  <span class="project-title">
+    <a href="/project/meme_generator/"  itemprop="url">Meme Generator - HackPKU 2017</a>
+  </span>
+
+  <p class="project-summary"><ul>
+<li>Worked with a teammate to develop a WeChat Mini-app to auto-generate meme for photos</li>
+<li>Automatically recognized characteristics of faces (gender, emotions, etc.) using SenseTime API</li>
+<li>Implemented an &ldquo;Meme Library&rdquo; in MySQL to store face characteristics of given memes</li>
+</ul>
+</p>
+</div>
+
+        
+      
+        
+        
+        
+        
           
-          A Six-Legged Smart Bionic Spider - Project for Embedded Systems course
-          
-          </span>
-          <p class="project-summary"><ul>
+
+
+
+
+
+<div class="col-lg-12 project-item isotope-item " itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="far fa-copy pub-icon" aria-hidden="true"></i>
+
+  <span class="project-title">
+    <a href="/project/embedded_system/"  itemprop="url">A Six-Legged Smart Bionic Spider - Project for Embedded Systems course</a>
+  </span>
+
+  <p class="project-summary"><ul>
 <li>Designed a mobile-controlled spider-like robot that automatically finds paths and avoids obstacles</li>
 </ul>
 </p>
-        </div>
-        
-    </div>
+</div>
 
-    
+        
+      
+    </div>
 
   </div>
 </div>
@@ -583,12 +782,14 @@
 
 
 
-<div class="row">
+<div class="row contact-widget">
   <div class="col-12 col-lg-4 section-heading">
     <h1>Contact</h1>
     
   </div>
   <div class="col-12 col-lg-8">
+    
+
     
 
     <ul class="fa-ul" itemscope>
@@ -615,6 +816,8 @@
         <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
         <span id="person-address" itemprop="address">Tsinghua University, Beijing 100084, China</span>
       </li>
+      
+
       
 
       
@@ -707,9 +910,6 @@
       
     
 
-    <script src="/js/hugo-academic.js"></script>
-    
-
     
     
 
@@ -728,7 +928,7 @@
       const search_index_filename = "/index.json";
       const i18n = {
         'placeholder': "Search...",
-        'results': "Search Results",
+        'results': "results found",
         'no_results': "No results found"
       };
       const content_type = {
@@ -762,10 +962,21 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
-    <script src="/js/search.js"></script>
     
 
     
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.d037ee5294b166a79dec317c58aea9cc.js"></script>
+
     
 
   </body>
