@@ -1,6 +1,6 @@
 +++
 # Project title.
-title = "Scanner"
+title = "Scanner: Efficient Video Analysis at Scale"
 
 # Date this page was created.
 date = 2018-10-02T00:00:00
@@ -17,7 +17,7 @@ summary = """
 # tags = ["Distributed Systems"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = ""
+external_link = "https://github.com/scanner-research/scanner"
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
@@ -35,7 +35,7 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com/georgecushen"}]
+url_custom = [{icon_pack = "fab", icon="github", name="Scanner on GitHub", url = "https://github.com/scanner-research/scanner"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 

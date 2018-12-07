@@ -1,19 +1,20 @@
 +++
 # Project title.
-title = "Find Courses to Take - A WeChat Mini-app"
+title = "Ray-tracing and Pipeline Renderer - Project for Computer Graphics course"
 
 # Date this page was created.
-date = 2017-05-01T00:00:00
+date = 2017-10-01T00:00:00
 
 # Project summary to display on homepage.
 summary = """
-- Developed a WeChat Mini-app on my own to help students rate courses and professors
-- Implemented front-end with WeChat API (JavaScript) and back-end with LeanCloud BaaS
+- Implemented a ray-tracing renderer optimized with BVH trees in C++
+- Implemented a pipeline renderer in OpenGL (GLSL)
 """
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
 # tags = ["Distributed Systems"]
+share = false
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -34,7 +35,7 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com/georgecushen"}]
+# url_custom = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com/georgecushen"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
@@ -46,3 +47,8 @@ url_custom = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = "Smart"
 +++
+- Implemented a ray-tracing renderer optimized with BVH trees in C++
+- Implemented a pipeline renderer in OpenGL(GLSL)
+
+{{< figure src="toycar.png" title="" >}}
+{{< figure src="crystal.png" title="Examples of rendered images" >}}

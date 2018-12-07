@@ -1,18 +1,20 @@
 +++
 # Project title.
-title = "A Six-Legged Smart Bionic Spider - Project for Embedded Systems course"
+title = "Find Courses to Take - A WeChat Mini-app"
 
 # Date this page was created.
-date = 2016-12-01T00:00:00
+date = 2017-05-01T00:00:00
 
 # Project summary to display on homepage.
 summary = """
-- Designed a mobile-controlled spider-like robot that automatically finds paths and avoids obstacles
+- Developed a WeChat Mini-app on my own to help students rate courses and professors
+- Implemented front-end with WeChat API (JavaScript) and back-end with LeanCloud BaaS
 """
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
 # tags = ["Distributed Systems"]
+share = false
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -33,7 +35,7 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com/georgecushen"}]
+# url_custom = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com/georgecushen"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
@@ -45,3 +47,6 @@ url_custom = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = "Smart"
 +++
+{{< figure src="browse.png" title="" >}}
+{{< figure src="details.png" title="" >}}
+Screenshots of the mini-app
