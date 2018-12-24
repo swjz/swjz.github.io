@@ -33,4 +33,6 @@ weight = 5
 
 # About me
 
-I am a final year undergraduate student at Tsinghua University. My passion is to optimize distributed data-intensive systems and make them easily accessible to everyone.
+I am currently a final year undergraduate student at Tsinghua University. Previously, I was a research intern at Stanford University under the supervision of [Prof. Kayvon Fatahalian](http://graphics.stanford.edu/~kayvonf/).
+
+My passion is to optimize distributed data-intensive systems and make them easily accessible to everyone.
