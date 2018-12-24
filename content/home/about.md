@@ -33,5 +33,4 @@ weight = 5
 
 # About me
 
-Wangjianzhe Shao is a final year undergraduate at Tsinghua University.
-
+I am a final year undergraduate student at Tsinghua University. My passion is to optimize distributed data-intensive systems and make them easily accessible to everyone.
